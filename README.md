@@ -1,3 +1,4 @@
+
 Railscast sm-rc115
 ==================
 
@@ -41,5 +42,6 @@ Rails.cache
 ```
 To change cache store
 ```
+
 
 
