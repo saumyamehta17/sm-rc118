@@ -1,0 +1,10 @@
+<h1><%= @page.name %></h1>
+
+<p><%= simple_format @page.content %></p>
+<% for product in @page.products %>
+  
+<%= Liquid::Template.parse("hii {{ product.name }} ").render('product' => product) %><br/>
+<% end %>
+
+
+<p><%= link_to "Edit" , edit_page_path("about") %></p>
